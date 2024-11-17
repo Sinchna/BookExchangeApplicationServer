@@ -1,0 +1,50 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+node_modules/
+
+# Django migrations
+*/migrations/
+
+# SQLite database
+db.sqlite3
+
+# Media and static files (if you're not pushing them to a CDN)
+media/
+static/
+
+# Django secret key file
+.secret/
+
+# Python virtual environment
+venv/
+env/
+.venv/
+.virtualenv/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.pid
+*.swp
